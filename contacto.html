@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impulso Digital | Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="navbar-container"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">ESTAMOS PARA ESCUCHARTE</p>
+        <h1>Tu próxima idea empieza con una conversación.</h1>
+        <p>Contanos qué necesitás y pensemos juntos cómo llevarlo adelante.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-details">
+          <p class="eyebrow">CONTACTO</p>
+          <h2>Hablemos.</h2>
+          <p>Podés escribirnos por correo o encontrarnos en nuestras redes.</p>
+
+          <div class="contact-item">
+            <span class="contact-label">Correo electrónico</span>
+            <a href="mailto:hola@impulsodigital.example">hola@impulsodigital.example</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Instagram</span>
+            <a href="#" target="_blank" rel="noopener">Próximamente</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">LinkedIn</span>
+            <a href="#" target="_blank" rel="noopener">Próximamente</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" placeholder="nombre@ejemplo.com" required>
+
+          <label for="message">¿En qué podemos ayudarte?</label>
+          <textarea id="message" name="message" rows="4" placeholder="Contanos brevemente tu idea" required></textarea>
+
+          <button class="button button-primary" type="submit">Enviar mensaje</button>
+          <p class="form-feedback" id="form-feedback" aria-live="polite">Formulario de demostración: no envía mensajes.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer-container"></footer>
+  <script src="js/navbar.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
